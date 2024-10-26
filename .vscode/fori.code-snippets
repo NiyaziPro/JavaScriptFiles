@@ -1,0 +1,12 @@
+{
+	"for loop with i < 0": {
+  "prefix": "fori",
+  "body": [
+    "for (let i = 0; i < 0; i++) {",
+    "  $1",  // $1 İmlecin yerini gösterir, döngü bloğu içine konumlanır
+    "}"
+  ],
+  "description": "for loop with i starting from 0 and i < 0"
+}
+
+}
