@@ -7,7 +7,7 @@ function factorial(number) {
 }
 
 function calcWithFactorial(number) {
-  let result=0;
+  let result = 0;
   for (let i = 1; i <= number; i++) {
     result += 1 / factorial(i);
   }
@@ -15,3 +15,15 @@ function calcWithFactorial(number) {
 }
 
 console.log(calcWithFactorial(5));
+
+function betweenNumber(x, y) {
+  let count = 0;
+  for (let i = 1; i <= x; i++) {
+    if (i % y === 0) {
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(betweenNumber(5000, 21));
