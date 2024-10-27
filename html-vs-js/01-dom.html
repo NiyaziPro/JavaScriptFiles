@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+
+    <p class="desc">
+      Lorem ipsum dolor, sit amet <b>consectetur</b> adipisicing elit. Non, iure
+      dolorum accusamus excepturi, deserunt repellendus tempore nam, est ut
+      ratione esse quae laudantium amet nostrum provident numquam accusantium
+      porro. Sint.
+    </p>
+
+    <!--ul.menu>li*3 -->
+    <ul class="menu">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+
+    <script>
+      const elH1 = document.querySelector("h1");
+      console.log(elH1.innerText);
+
+      elH1.innerText = "Hello Javascript :)";
+      elH1.innerHTML = "Hello <em>Javascript</em>";
+
+      const elHome = document.querySelector(".menu li:first-child");
+      console.log(elHome);
+      elHome.innerText = "Ana sayfa";
+
+      document.querySelector;
+
+      const allLi = document.querySelectorAll("li");
+      console.log(allLi);
+
+      const elDesc = document.querySelector(".desc");
+      console.log(elDesc.innerText);
+      console.log(elDesc.innerHTML);
+    </script>
+  </body>
+</html>
