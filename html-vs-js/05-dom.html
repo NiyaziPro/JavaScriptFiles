@@ -22,6 +22,11 @@
         color: green;
         text-shadow: 3px 3px 5px black;
       }
+      .header-style {
+        color: greenyellow;
+        text-shadow: 3px 3px 5px black;
+        padding: 2rem;
+      }
     </style>
   </head>
   <body>
@@ -40,6 +45,10 @@
       pE1.classList.add("text-style");
       console.log(pE1.classList);
       pE1.classList.remove("red");
+
+      let elH1 = document.querySelector("h1");
+      elH1.classList.add("text-center");
+      elH1.classList.add("header-style");
     </script>
   </body>
 </html>
